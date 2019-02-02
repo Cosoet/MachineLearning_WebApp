@@ -1,0 +1,15 @@
+<!doctype html>
+<title>Hello, World!</title>
+<h1>Input your features</h1>
+<p></p>
+<form action="/iris" method="post">
+ <label>Features:</label>
+ <input type="textbox" name="p1">
+ <input type="submit" value="Submit">
+</form>
+   <!-- result search -->
+<p></p>
+<p></p>   
+{% if result : %}
+    <h2>here is result: {{ result }}</h2>
+{% endif %}
